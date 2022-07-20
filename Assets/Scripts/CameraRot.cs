@@ -1,6 +1,7 @@
+using NTC.Global.Cache;
 using UnityEngine;
 
-public class CameraRot : MonoBehaviour
+public class CameraRot : NightCache, INightRun
 {
 
     public Transform target;
@@ -20,7 +21,7 @@ public class CameraRot : MonoBehaviour
         transform.position = target.position + offset;
     }
 
-    void Update()
+    public void Run()
     {
         if (Input.GetKey(KeyCode.Mouse1))
         {

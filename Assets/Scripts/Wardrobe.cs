@@ -3,8 +3,9 @@ public class Wardrobe : MonoBehaviour
 {
     public GameObject[] Шапки;
     public GameObject[] Броня;
-   // public GameObject[] Плечи;
-   // public GameObject[] Плащ;
+    // public GameObject[] Плечи;
+    // public GameObject[] Плащ;
+
 
     public void OnTriggerEnter(Collider other)
     {

@@ -2,16 +2,24 @@ using UnityEngine;
 
 public class Clothes : MonoBehaviour
 {
-    public GameObject obj;
-    public void Update()
+    private GameObject _obj;
+    public GameObject obj
     {
-        if(obj.activeSelf == true)
+        get
         {
-            gameObject.SetActive(true);
+            return _obj;
         }
-        else
+        set
         {
-            gameObject.SetActive(false);
+            _obj = value;
+            if (_obj.activeSelf == true)
+            {
+                gameObject.SetActive(true);
+            }
+            else
+            {
+                gameObject.SetActive(false);
+            }
         }
     }
 }
