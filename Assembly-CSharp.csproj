@@ -58,22 +58,10 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Clothes.cs" />
     <Compile Include="Assets\Scripts\Tooltip.cs" />
-    <Compile Include="Assets\NightCache-main\Code\NightCache\NightCacheCore.cs" />
-    <Compile Include="Assets\NightCache-main\Code\System\IndexIncrement.cs" />
-    <Compile Include="Assets\NightCache-main\Code\NightCache\MonoAllocation.cs" />
-    <Compile Include="Assets\NightCache-main\Code\NightCache\NightCacheInstallable.cs" />
     <Compile Include="Assets\Scripts\TooltipTextUI.cs" />
     <Compile Include="Assets\Scripts\CameraRot.cs" />
-    <Compile Include="Assets\NightCache-main\Code\System\SimpleExt.cs" />
-    <Compile Include="Assets\NightCache-main\Code\System\GetInfo.cs" />
-    <Compile Include="Assets\NightCache-main\Code\System\ConvertExt.cs" />
-    <Compile Include="Assets\NightCache-main\Code\NightCache\NightCacheInstallMachine.cs" />
-    <Compile Include="Assets\NightCache-main\Code\NightCache\INightCached.cs" />
-    <Compile Include="Assets\NightCache-main\Code\NightCache\NightCache.cs" />
     <Compile Include="Assets\Scripts\Wardrobe.cs" />
-    <Compile Include="Assets\NightCache-main\Code\NightCache\MonoInstallable.cs" />
-    <Compile Include="Assets\NightCache-main\Code\NightCache\NightCacheEntry.cs" />
-    <Compile Include="Assets\NightCache-main\Code\System\NightSugar.cs" />
+    <Compile Include="Assets\Ecs.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -735,6 +723,9 @@
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Leopotam.Ecs">
+      <HintPath>Library\ScriptAssemblies\Leopotam.Ecs.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

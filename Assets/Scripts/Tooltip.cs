@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-using NTC.Global.Cache;
 using System.Collections;
 
-public class Tooltip : NightCache, INightLateRun
+public class Tooltip : MonoBehaviour
 
 {
 
@@ -47,7 +46,7 @@ public class Tooltip : NightCache, INightLateRun
 		boxText.alignment = TextAnchor.MiddleCenter;
 	}
 
-	public void LateRun()
+	public void LateUpdate()
     {
 		bool show = false;
 		boxText.fontSize = fontSize;
