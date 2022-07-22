@@ -60,8 +60,8 @@
     <Compile Include="Assets\Scripts\Tooltip.cs" />
     <Compile Include="Assets\Scripts\TooltipTextUI.cs" />
     <Compile Include="Assets\Scripts\CameraRot.cs" />
-    <Compile Include="Assets\Scripts\Wardrobe.cs" />
     <Compile Include="Assets\Ecs.cs" />
+    <Compile Include="Assets\Scripts\Wardrobe.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -679,6 +679,9 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Leopotam.Ecs">
+      <HintPath>Library\ScriptAssemblies\Leopotam.Ecs.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -723,9 +726,6 @@
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Leopotam.Ecs">
-      <HintPath>Library\ScriptAssemblies\Leopotam.Ecs.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

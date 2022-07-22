@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Textire
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: WebGL
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 12
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 128548db2e356634c8502d0b6019e231, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 0464bb2170a597241b87624b702ca651, type: 3}
+  - {fileID: 21300000, guid: 87f0efd2674341e45beb51109d0b4652, type: 3}
+  - {fileID: -582590902, guid: e80d10b42d41a7f4fbac5d9de7221cdd, type: 3}
+  - {fileID: 1102892163, guid: e80d10b42d41a7f4fbac5d9de7221cdd, type: 3}
+  - {fileID: -1343418644, guid: e80d10b42d41a7f4fbac5d9de7221cdd, type: 3}
+  - {fileID: 2007981661, guid: e80d10b42d41a7f4fbac5d9de7221cdd, type: 3}
+  - {fileID: -1780860987, guid: e80d10b42d41a7f4fbac5d9de7221cdd, type: 3}
+  - {fileID: 21300000, guid: 007cd7c4cd5390848b0bf258ad076c8d, type: 3}
+  - {fileID: 21300000, guid: 2195e205a37c3734283de907004addba, type: 3}
+  - {fileID: 21300000, guid: 110939c67ed2afa4aa35a597fdbed4df, type: 3}
+  - {fileID: 21300000, guid: c5dc5c2f77f9daf49b5c32a77b35aa64, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - "\u0428\u0430\u043F\u043A\u04302"
+  - "\u0411\u0440\u043E\u043D\u044F1"
+  - Back_4
+  - Back_3
+  - Back_2
+  - Back_1
+  - Back_0
+  - "\u0428\u0430\u043F\u043A\u04303"
+  - "\u0428\u0430\u043F\u043A\u04301"
+  - "\u0411\u0440\u043E\u043D\u044F2"
+  - "\u0411\u0440\u043E\u043D\u044F3"
+  m_RenderDataMap: {}
+  m_Tag: Textire
+  m_IsVariant: 0
