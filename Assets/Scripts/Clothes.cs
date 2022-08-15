@@ -3,7 +3,7 @@ using UnityEngine;
 public class Clothes : MonoBehaviour
 {
     private GameObject _obj;
-    public GameObject obj
+    public GameObject Obj
     {
         get
         {

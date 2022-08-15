@@ -923,8 +923,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 374255269}
   m_HandleRect: {fileID: 374255268}
   m_Direction: 2
-  m_Value: 1.0000005
-  m_Size: 0.7750284
+  m_Value: 1.000001
+  m_Size: 0.77502847
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1911,6 +1911,7 @@ GameObject:
   - component: {fileID: 969705713}
   - component: {fileID: 943122707}
   - component: {fileID: 943038157}
+  - component: {fileID: 969781152}
   m_Layer: 5
   m_Name: Tooltip
   m_TagString: Untagged
@@ -2206,6 +2207,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &969781152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949613401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287e88db736f451198df6c2f621b2885, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &969785079
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2279,6 +2292,7 @@ GameObject:
   - component: {fileID: 1101382115}
   - component: {fileID: 1101382117}
   - component: {fileID: 1101382118}
+  - component: {fileID: 1101382119}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -2363,6 +2377,18 @@ MonoBehaviour:
   zoom: 0.25
   zoomMax: 15
   zoomMin: -5
+--- !u!114 &1101382119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101382114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287e88db736f451198df6c2f621b2885, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1105704765
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3045,6 +3071,50 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.7654495, y: 7.883442, z: 1}
   m_Center: {x: -1.8827248, y: 3.441721, z: 0}
+--- !u!1 &1446204632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1446204634}
+  - component: {fileID: 1446204633}
+  m_Layer: 0
+  m_Name: NighteCache
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1446204633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446204632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 860c504728944d91a68f9fb1a7a53276, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1446204634
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446204632}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 64.234924, y: 57.939995, z: 67.857025}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1493993811
 GameObject:
   m_ObjectHideFlags: 0

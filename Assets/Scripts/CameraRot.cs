@@ -1,8 +1,8 @@
 using UnityEngine;
+using NTC.Global.Cache;
 
-public class CameraRot : MonoBehaviour
+public class CameraRot : NightCache, INightInit, INightRun
 {
-
     public Transform target;
     public Vector3 offset;
     public float sensitivity = 3; // чувствительность мышки
@@ -12,7 +12,7 @@ public class CameraRot : MonoBehaviour
     public float zoomMin = 3; // мин. увеличение
     private float X, Y;
 
-    void Start()
+    public void Init()
     {
         limit = Mathf.Abs(limit);
         if (limit > 90) limit = 90;
@@ -20,7 +20,7 @@ public class CameraRot : MonoBehaviour
         transform.position = target.position + offset;
     }
 
-    public void Update()
+    public void Run()
     {
         if (Input.GetKey(KeyCode.Mouse1))
         {
@@ -30,8 +30,6 @@ public class CameraRot : MonoBehaviour
                 offset.z -= zoom;
                 offset.z = Mathf.Clamp(offset.z, -Mathf.Abs(zoomMax), -Mathf.Abs(zoomMin));
             }
-
-
 
             X = transform.localEulerAngles.y + Input.GetAxis("Mouse X") * sensitivity;
             Y += Input.GetAxis("Mouse Y") * sensitivity;

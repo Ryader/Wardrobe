@@ -62,6 +62,19 @@
     <Compile Include="Assets\Ecs.cs" />
     <Compile Include="Assets\Scripts\Clothes.cs" />
     <Compile Include="Assets\Scripts\Wardrobe.cs" />
+    <Compile Include="Assets\Scripts\Code\NightCache\NightCacheInstallMachine.cs" />
+    <Compile Include="Assets\Scripts\Code\System\IndexIncrement.cs" />
+    <Compile Include="Assets\Scripts\Code\System\GetInfo.cs" />
+    <Compile Include="Assets\Scripts\Code\NightCache\NightCacheEntry.cs" />
+    <Compile Include="Assets\Scripts\Code\NightCache\MonoInstallable.cs" />
+    <Compile Include="Assets\Scripts\Code\NightCache\MonoAllocation.cs" />
+    <Compile Include="Assets\Scripts\Code\NightCache\INightCached.cs" />
+    <Compile Include="Assets\Scripts\Code\NightCache\NightCacheInstallable.cs" />
+    <Compile Include="Assets\Scripts\Code\System\ConvertExt.cs" />
+    <Compile Include="Assets\Scripts\Code\System\SimpleExt.cs" />
+    <Compile Include="Assets\Scripts\Code\NightCache\NightCache.cs" />
+    <Compile Include="Assets\Scripts\Code\NightCache\NightCacheCore.cs" />
+    <Compile Include="Assets\Scripts\Code\System\NightSugar.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
